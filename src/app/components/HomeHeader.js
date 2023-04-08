@@ -4,8 +4,9 @@ import {TbGridDots} from "react-icons/tb"
 
 export default function HomeHeader() {
   return (
-    <header>
-    <div >
+    //inside header the style helps us to push the content to the right using flex and justify-end
+    <header className="flex justify-end p-5 text-sm ">
+    <div className="flex space-x-4 items-center">
     {/* link tag helps us to go from one page to another without refreshing the page */}
     <Link href="https://mail.google.com"
     className="hover:underline">
