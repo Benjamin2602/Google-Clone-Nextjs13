@@ -12,6 +12,11 @@ export default function HomeSearch() {
     <BsFillMicFill className="text-lg"/>
 
     </form>
+
+        <div className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-4 justify-center sm:flex-row mt-8">
+            <button  className="btn">Google Search</button>
+            <button className="btn">I am Feeling Lucky</button>
+        </div>
       
     </>
   )
